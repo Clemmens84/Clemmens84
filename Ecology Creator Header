@@ -1,0 +1,15 @@
+#include<Windows.h>
+#include<stdlib.h>
+#include<string.h>
+#include<stdio.h>
+
+#DEFINE NUMBEINGS 7
+
+#DEFINE OPEN 10
+
+
+
+LRESULT CALLBACK ecoCreateProc(HWND, UINT, WPARAM, LPARAM);
+
+HWND ecohwnd
+HMENU file, open, close, save, help, clearall, clearbeings, run;
